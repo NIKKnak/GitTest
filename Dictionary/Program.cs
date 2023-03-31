@@ -7,11 +7,7 @@ countrieCapitals.Add("Австралия","Канберра");
 countrieCapitals.Add("Турция","Анкара");
 countrieCapitals.Add("Швейцария","Берн");
 
-
-
 countrieCapitals.Remove("Турция");
-
-
 
 foreach (var key in countrieCapitals.Keys)
 {
