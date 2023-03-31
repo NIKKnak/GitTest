@@ -1,0 +1,15 @@
+C:\Users\unvetos\Desktop\Sharp\CS\StackFILO\bin\Debug\net6.0\StackFILO.exe
+C:\Users\unvetos\Desktop\Sharp\CS\StackFILO\bin\Debug\net6.0\StackFILO.deps.json
+C:\Users\unvetos\Desktop\Sharp\CS\StackFILO\bin\Debug\net6.0\StackFILO.runtimeconfig.json
+C:\Users\unvetos\Desktop\Sharp\CS\StackFILO\bin\Debug\net6.0\StackFILO.dll
+C:\Users\unvetos\Desktop\Sharp\CS\StackFILO\bin\Debug\net6.0\StackFILO.pdb
+C:\Users\unvetos\Desktop\Sharp\CS\StackFILO\obj\Debug\net6.0\StackFILO.csproj.AssemblyReference.cache
+C:\Users\unvetos\Desktop\Sharp\CS\StackFILO\obj\Debug\net6.0\StackFILO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\unvetos\Desktop\Sharp\CS\StackFILO\obj\Debug\net6.0\StackFILO.AssemblyInfoInputs.cache
+C:\Users\unvetos\Desktop\Sharp\CS\StackFILO\obj\Debug\net6.0\StackFILO.AssemblyInfo.cs
+C:\Users\unvetos\Desktop\Sharp\CS\StackFILO\obj\Debug\net6.0\StackFILO.csproj.CoreCompileInputs.cache
+C:\Users\unvetos\Desktop\Sharp\CS\StackFILO\obj\Debug\net6.0\StackFILO.dll
+C:\Users\unvetos\Desktop\Sharp\CS\StackFILO\obj\Debug\net6.0\refint\StackFILO.dll
+C:\Users\unvetos\Desktop\Sharp\CS\StackFILO\obj\Debug\net6.0\StackFILO.pdb
+C:\Users\unvetos\Desktop\Sharp\CS\StackFILO\obj\Debug\net6.0\StackFILO.genruntimeconfig.cache
+C:\Users\unvetos\Desktop\Sharp\CS\StackFILO\obj\Debug\net6.0\ref\StackFILO.dll
