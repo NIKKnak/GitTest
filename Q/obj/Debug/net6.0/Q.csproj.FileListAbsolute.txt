@@ -1,0 +1,15 @@
+C:\Users\unvetos\Desktop\Sharp\CS\Q\obj\Debug\net6.0\Q.csproj.AssemblyReference.cache
+C:\Users\unvetos\Desktop\Sharp\CS\Q\obj\Debug\net6.0\Q.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\unvetos\Desktop\Sharp\CS\Q\obj\Debug\net6.0\Q.AssemblyInfoInputs.cache
+C:\Users\unvetos\Desktop\Sharp\CS\Q\obj\Debug\net6.0\Q.AssemblyInfo.cs
+C:\Users\unvetos\Desktop\Sharp\CS\Q\obj\Debug\net6.0\Q.csproj.CoreCompileInputs.cache
+C:\Users\unvetos\Desktop\Sharp\CS\Q\bin\Debug\net6.0\Q.exe
+C:\Users\unvetos\Desktop\Sharp\CS\Q\bin\Debug\net6.0\Q.deps.json
+C:\Users\unvetos\Desktop\Sharp\CS\Q\bin\Debug\net6.0\Q.runtimeconfig.json
+C:\Users\unvetos\Desktop\Sharp\CS\Q\bin\Debug\net6.0\Q.dll
+C:\Users\unvetos\Desktop\Sharp\CS\Q\bin\Debug\net6.0\Q.pdb
+C:\Users\unvetos\Desktop\Sharp\CS\Q\obj\Debug\net6.0\Q.dll
+C:\Users\unvetos\Desktop\Sharp\CS\Q\obj\Debug\net6.0\refint\Q.dll
+C:\Users\unvetos\Desktop\Sharp\CS\Q\obj\Debug\net6.0\Q.pdb
+C:\Users\unvetos\Desktop\Sharp\CS\Q\obj\Debug\net6.0\Q.genruntimeconfig.cache
+C:\Users\unvetos\Desktop\Sharp\CS\Q\obj\Debug\net6.0\ref\Q.dll
