@@ -1,6 +1,7 @@
 ﻿
 
 
+
 Dictionary<string, string> countrieCapitals = new Dictionary<string, string>();
 
 countrieCapitals.Add("Австралия","Канберра");
