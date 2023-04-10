@@ -1,0 +1,15 @@
+C:\Users\unvetos\Desktop\CS\oop\bin\Debug\net6.0\oop.exe
+C:\Users\unvetos\Desktop\CS\oop\bin\Debug\net6.0\oop.deps.json
+C:\Users\unvetos\Desktop\CS\oop\bin\Debug\net6.0\oop.runtimeconfig.json
+C:\Users\unvetos\Desktop\CS\oop\bin\Debug\net6.0\oop.dll
+C:\Users\unvetos\Desktop\CS\oop\bin\Debug\net6.0\oop.pdb
+C:\Users\unvetos\Desktop\CS\oop\obj\Debug\net6.0\oop.csproj.AssemblyReference.cache
+C:\Users\unvetos\Desktop\CS\oop\obj\Debug\net6.0\oop.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\unvetos\Desktop\CS\oop\obj\Debug\net6.0\oop.AssemblyInfoInputs.cache
+C:\Users\unvetos\Desktop\CS\oop\obj\Debug\net6.0\oop.AssemblyInfo.cs
+C:\Users\unvetos\Desktop\CS\oop\obj\Debug\net6.0\oop.csproj.CoreCompileInputs.cache
+C:\Users\unvetos\Desktop\CS\oop\obj\Debug\net6.0\oop.dll
+C:\Users\unvetos\Desktop\CS\oop\obj\Debug\net6.0\refint\oop.dll
+C:\Users\unvetos\Desktop\CS\oop\obj\Debug\net6.0\oop.pdb
+C:\Users\unvetos\Desktop\CS\oop\obj\Debug\net6.0\oop.genruntimeconfig.cache
+C:\Users\unvetos\Desktop\CS\oop\obj\Debug\net6.0\ref\oop.dll

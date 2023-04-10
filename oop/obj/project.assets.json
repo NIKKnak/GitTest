@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\unvetos\\Desktop\\Sharp\\CS\\oop\\oop.csproj",
+      "projectUniqueName": "C:\\Users\\unvetos\\Desktop\\CS\\oop\\oop.csproj",
       "projectName": "oop",
-      "projectPath": "C:\\Users\\unvetos\\Desktop\\Sharp\\CS\\oop\\oop.csproj",
+      "projectPath": "C:\\Users\\unvetos\\Desktop\\CS\\oop\\oop.csproj",
       "packagesPath": "C:\\Users\\masteruser\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\unvetos\\Desktop\\Sharp\\CS\\oop\\obj\\",
+      "outputPath": "C:\\Users\\unvetos\\Desktop\\CS\\oop\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\masteruser\\AppData\\Roaming\\NuGet\\NuGet.Config"

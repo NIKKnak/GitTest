@@ -7,8 +7,18 @@ namespace CSharp
         {
             Car ferrari = new Car();
             
-            // ferrari.
+            ferrari.Name = "F40";
+            ferrari.HorsePower = 471;
+            ferrari.Age = 30;
+            ferrari.MaxSpeed = 317.0f;
 
+
+            Car maseratti;
+
+            maseratti = ferrari;
+            maseratti.HorsePower = 1000;
+
+            System.Console.WriteLine(ferrari.HorsePower);
 
 
         }
@@ -16,10 +26,10 @@ namespace CSharp
 
     class Car
     {
-        public string name;
-        private int horsePower;
-        public int age;
-        private int maxSpeed;
+        public string Name;
+        public int HorsePower;
+        public int Age;
+        public float MaxSpeed;
 
 
     }
