@@ -1,0 +1,15 @@
+C:\Users\unvetos\Desktop\CS\oopAdminCafe\bin\Debug\net6.0\oopAdminCafe.exe
+C:\Users\unvetos\Desktop\CS\oopAdminCafe\bin\Debug\net6.0\oopAdminCafe.deps.json
+C:\Users\unvetos\Desktop\CS\oopAdminCafe\bin\Debug\net6.0\oopAdminCafe.runtimeconfig.json
+C:\Users\unvetos\Desktop\CS\oopAdminCafe\bin\Debug\net6.0\oopAdminCafe.dll
+C:\Users\unvetos\Desktop\CS\oopAdminCafe\bin\Debug\net6.0\oopAdminCafe.pdb
+C:\Users\unvetos\Desktop\CS\oopAdminCafe\obj\Debug\net6.0\oopAdminCafe.csproj.AssemblyReference.cache
+C:\Users\unvetos\Desktop\CS\oopAdminCafe\obj\Debug\net6.0\oopAdminCafe.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\unvetos\Desktop\CS\oopAdminCafe\obj\Debug\net6.0\oopAdminCafe.AssemblyInfoInputs.cache
+C:\Users\unvetos\Desktop\CS\oopAdminCafe\obj\Debug\net6.0\oopAdminCafe.AssemblyInfo.cs
+C:\Users\unvetos\Desktop\CS\oopAdminCafe\obj\Debug\net6.0\oopAdminCafe.csproj.CoreCompileInputs.cache
+C:\Users\unvetos\Desktop\CS\oopAdminCafe\obj\Debug\net6.0\oopAdminCafe.dll
+C:\Users\unvetos\Desktop\CS\oopAdminCafe\obj\Debug\net6.0\refint\oopAdminCafe.dll
+C:\Users\unvetos\Desktop\CS\oopAdminCafe\obj\Debug\net6.0\oopAdminCafe.pdb
+C:\Users\unvetos\Desktop\CS\oopAdminCafe\obj\Debug\net6.0\oopAdminCafe.genruntimeconfig.cache
+C:\Users\unvetos\Desktop\CS\oopAdminCafe\obj\Debug\net6.0\ref\oopAdminCafe.dll
