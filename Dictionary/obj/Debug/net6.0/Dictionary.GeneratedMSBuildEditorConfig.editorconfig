@@ -5,6 +5,11 @@ build_property.UsingMicrosoftNETSdkWeb =
 build_property.ProjectTypeGuids = 
 build_property.InvariantGlobalization = 
 build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Dictionary
+<<<<<<< HEAD
 build_property.ProjectDir = c:\Users\unvetos\Desktop\CS\Dictionary\
+=======
+build_property.ProjectDir = C:\Users\NIKnak\Source\Repos\CS\Dictionary\
+>>>>>>> 2bff00cadd4259ba38ce32eb7666dbdbaae07cde
