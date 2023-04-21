@@ -19,23 +19,34 @@ count_product INT
 */
 
 INSERT INTO sales(order_date,count_product)
+
 VALUES 
+
 (2022-01-01, 156),
+
 (2022-01-02,180),
+
 (2022-01-03,21),
+
 (2022-01-04,124),
+
 (2022-01-05,341);
 
 SELECT * FROM sales;
 
 ALTER TABLE  sales
+
 ADD COLUMN order_type char(20);
 
 
 UPDATE sales SET order_type = 'Маленький заказ' where id =  3;
+
 UPDATE sales SET order_type = 'Средний заказ' where id =1;
+
 UPDATE sales SET order_type = 'Средний заказ' where id =2;
+
 UPDATE sales SET order_type = 'Средний заказ' where id =4;
+
 UPDATE sales SET order_type = 'Большой заказ' where id = 5;
 
 

@@ -9,7 +9,7 @@ namespace CSharp
             Performer worker1 = new Performer("Вениамин");
             Performer worker2 = new Performer("Роман");
 
-            Task[] tasks = {new Task(worker1, "Выкопать яму."), new Task(worker2, "Вывезти грунт.") };
+            Task[] tasks = { new Task(worker1, "Выкопать яму."), new Task(worker2, "Вывезти грунт.") };
 
             Board schedule = new Board(tasks);
 

@@ -7,14 +7,11 @@ namespace CSharp
         {
             Car ferrari = new Car();
 
-
             ferrari.ShowTechnicalPasport();
-
-
-
-
         }
     }
+
+
 
     class Car
     {
@@ -38,7 +35,6 @@ namespace CSharp
             Age = age;
             MaxSpeed = maxSpeed;
         }
-
         public Car()
         {
             Name = "Ford";
@@ -47,24 +43,16 @@ namespace CSharp
             MaxSpeed = 300;
 
         }
-
         public void ShowTechnicalPasport()
         {
             System.Console.WriteLine($"Название авто: {Name}\nКоличество лошадиных сил: {HorsePower}" +
                                      $"\nВазраст авто: {Age}\nМаксимальная скорость: {MaxSpeed} км/ч");
         }
-
-
         public void BecomeOlder(int years, int runAwayHorses)
         {
             Age += years;
             HorsePower -= runAwayHorses;
         }
-
-
-
-
-
 
     }
 
