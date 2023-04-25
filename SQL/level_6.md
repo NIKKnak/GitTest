@@ -1,5 +1,3 @@
-
-
 USE lesson_5;
 
 /*
