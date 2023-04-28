@@ -1,115 +1,52 @@
+–ó–∞–¥–∞–Ω–∏–µ 1.1. –°–æ–∑–¥–∞–π—Ç–µ –ø—Ä–µ–¥—Å—Ç–∞–≤–ª–µ–Ω–∏–µ, –≤ –∫–æ—Ç–æ—Ä–æ–µ –ø–æ–ø–∞–¥—É—Ç –∞–≤—Ç–æ–º–æ–±–∏–ª–∏ —Å—Ç–æ–∏–º–æ—Å—Ç—å—é –¥–æ 25 000 –¥–æ–ª–ª–∞—Ä–æ–≤.
+
+CREATE VIEW cars_1_1 AS
+SELECT * FROM Cars
+WHERE cost < 25000;
 
 
-USE lesson_5;
+–ó–∞–¥–∞–Ω–∏–µ 1.2. –ò–∑–º–µ–Ω–∏—Ç—å –≤ —Å—É—â–µ—Å—Ç–≤—É—é—â–µ–º –ø—Ä–µ–¥—Å—Ç–∞–≤–ª–µ–Ω–∏–∏ –ø–æ—Ä–æ–≥ –¥–ª—è —Å—Ç–æ–∏–º–æ—Å—Ç–∏: –ø—É—Å—Ç—å —Ü–µ–Ω–∞ –±—É–¥–µ—Ç –¥–æ 30 000 –¥–æ–ª–ª–∞—Ä–æ–≤ (–∏—Å–ø–æ–ª—å–∑—É—è –æ–ø–µ—Ä–∞—Ç–æ—Ä ALTER VIEW).
 
-/*
-WITH RECURSIVE cte AS
-(
-SELECT 1 AS a
-UNION ALL
-SELECT a + 1 FROM cte
-WHERE a < 10
-)
-SELECT * FROM cte;
-*/
+ALTER VIEW cars_1_1 AS
+SELECT * FROM Cars
+WHERE cost < 30000;
 
 
-CREATE DATABASE mydb;
-USE mydb;
+–ó–∞–¥–∞–Ω–∏–µ 1.3. –°–æ–∑–¥–∞–π—Ç–µ –ø—Ä–µ–¥—Å—Ç–∞–≤–ª–µ–Ω–∏–µ, –≤ –∫–æ—Ç–æ—Ä–æ–º –±—É–¥—É—Ç —Ç–æ–ª—å–∫–æ –∞–≤—Ç–æ–º–æ–±–∏–ª–∏ –º–∞—Ä–∫–∏ ‚Äú–®–∫–æ–¥–∞‚Äù –∏ ‚Äú–ê—É–¥–∏‚Äù.
 
-CREATE TABLE users (
-username VARCHAR(50) PRIMARY KEY,
-password VARCHAR(50) NOT NULL,
-status VARCHAR(10) NOT NULL);
-
-CREATE TABLE users_profile (
-username VARCHAR(50) PRIMARY KEY,
-name VARCHAR(50) NOT NULL,
-address VARCHAR(50) NOT NULL,
-email VARCHAR(50) NOT NULL,
-FOREIGN KEY (username) REFERENCES users(username) ON DELETE CASCADE);
-
-INSERT INTO users values
-('admin' , '7856', 'Active'),
-('staff' , '90802', 'Active'),
-('manager' , '35462', 'Inactive');
-
-INSERT INTO users_profile values
-('admin', 'Administrator' , 'Dhanmondi', 'admin@test.com' ) ,
-('staff', 'Jakir Nayek' , 'Mirpur', 'zakir@test.com' ),
-('manager', 'Mehr Afroz' , 'Eskaton', 'mehr@test.com' );
+CREATE VIEW cars_1_3 AS
+SELECT * FROM Cars
+WHERE name = "Audi" OR name = "Skoda";
 
 
+–ó–∞–¥–∞–Ω–∏–µ 2. –í—ã–≤–µ—Å—Ç–∏ –Ω–∞–∑–≤–∞–Ω–∏–µ –∏ —Ü–µ–Ω—É –¥–ª—è –≤—Å–µ—Ö –∞–Ω–∞–ª–∏–∑–æ–≤, –∫–æ—Ç–æ—Ä—ã–µ –ø—Ä–æ–¥–∞–≤–∞–ª–∏—Å—å 5 —Ñ–µ–≤—Ä–∞–ª—è 2020 –∏ –≤—Å—é —Å–ª–µ–¥—É—é—â—É—é –Ω–µ–¥–µ–ª—é. (—Ç–∞–±–ª–∏—Ü—ã —Å–º. –≤ –ø—Ä–µ–∑–µ–Ω—Ç–∞—Ü–∏–∏).
+
+    –ï—Å—Ç—å —Ç–∞–±–ª–∏—Ü–∞ –∞–Ω–∞–ª–∏–∑–æ–≤ Analysis:
+    an_id ‚Äî ID –∞–Ω–∞–ª–∏–∑–∞;
+    an_name ‚Äî –Ω–∞–∑–≤–∞–Ω–∏–µ –∞–Ω–∞–ª–∏–∑–∞;
+    an_cost ‚Äî —Å–µ–±–µ—Å—Ç–æ–∏–º–æ—Å—Ç—å –∞–Ω–∞–ª–∏–∑–∞;
+    an_price ‚Äî —Ä–æ–∑–Ω–∏—á–Ω–∞—è —Ü–µ–Ω–∞ –∞–Ω–∞–ª–∏–∑–∞;
+    an_group ‚Äî –≥—Ä—É–ø–ø–∞ –∞–Ω–∞–ª–∏–∑–æ–≤.
+    –ï—Å—Ç—å —Ç–∞–±–ª–∏—Ü–∞ –≥—Ä—É–ø–ø –∞–Ω–∞–ª–∏–∑–æ–≤ Groups:
+    gr_id ‚Äî ID –≥—Ä—É–ø–ø—ã;
+    gr_name ‚Äî –Ω–∞–∑–≤–∞–Ω–∏–µ –≥—Ä—É–ø–ø—ã;
+    gr_temp ‚Äî —Ç–µ–º–ø–µ—Ä–∞—Ç—É—Ä–Ω—ã–π —Ä–µ–∂–∏–º —Ö—Ä–∞–Ω–µ–Ω–∏—è.
+    –ï—Å—Ç—å —Ç–∞–±–ª–∏—Ü–∞ –∑–∞–∫–∞–∑–æ–≤ Orders:
+    ord_id ‚Äî ID –∑–∞–∫–∞–∑–∞;
+    ord_datetime ‚Äî –¥–∞—Ç–∞ –∏ –≤—Ä–µ–º—è –∑–∞–∫–∞–∑–∞;
+    ord_an ‚Äî ID –∞–Ω–∞–ª–∏–∑–∞.
+
+SELECT an_name, an_price, ord_datetime
+FROM Analysis
+JOIN Orders
+ON Analysis.an_id = Orders.ord_id
+AND Orders.ord_datetime >= '2020-02-05'
+AND Orders.ord_datetime <= '2020-02-12';
 
 
-/*
-1.	»ÒÔÓÎ¸ÁÛˇ —“≈, ‚˚‚Â‰ËÚÂ ‚ÒÂı ÔÓÎ¸ÁÓ‚‡ÚÂÎÂÈ ËÁ Ú‡·ÎËˆ˚ users_profile
-2.	»ÒÔÓÎ¸ÁÛˇ —“≈, ÔÓ‰Ò˜ËÚ‡ÈÚÂ ÍÓÎË˜ÂÒÚ‚Ó ‡ÍÚË‚Ì˚ı ÔÓÎ¸ÁÓ‚‡ÚÂÎÂÈ . «‡‰‡ÈÚÂ ÔÒÂ‚‰ÓÌËÏ ÂÁÛÎ¸ÚËÛ˛˘ÂÏÛ ÓÍÌÛ. œËÏÂ:
-3. 	— ÔÓÏÓ˘¸˛ —“≈ Â‡ÎËÁÛÈÚÂ Ú‡·ÎËˆÛ Í‚‡‰‡ÚÓ‚ ˜ËÒÂÎ ÓÚ 1 ‰Ó 10:(ÔËÏÂ ‰Îˇ ˜ËÒÂÎ ÓÚ 1 ‰Ó 3)
-*/
+–î–æ–±–∞–≤—å—Ç–µ –Ω–æ–≤—ã–π —Å—Ç–æ–ª–±–µ—Ü –ø–æ–¥ –Ω–∞–∑–≤–∞–Ω–∏–µ–º ¬´–≤—Ä–µ–º—è –¥–æ —Å–ª–µ–¥—É—é—â–µ–π —Å—Ç–∞–Ω—Ü–∏–∏¬ª. –ß—Ç–æ–±—ã –ø–æ–ª—É—á–∏—Ç—å —ç—Ç–æ –∑–Ω–∞—á–µ–Ω–∏–µ, –º—ã –≤—ã—á–∏—Ç–∞–µ–º –≤—Ä–µ–º—è —Å—Ç–∞–Ω—Ü–∏–π –¥–ª—è –ø–∞—Ä —Å–º–µ–∂–Ω—ã—Ö —Å—Ç–∞–Ω—Ü–∏–π. –ú—ã –º–æ–∂–µ–º –≤—ã—á–∏—Å–ª–∏—Ç—å —ç—Ç–æ –∑–Ω–∞—á–µ–Ω–∏–µ –±–µ–∑ –∏—Å–ø–æ–ª—å–∑–æ–≤–∞–Ω–∏—è –æ–∫–æ–Ω–Ω–æ–π —Ñ—É–Ω–∫—Ü–∏–∏ SQL, –Ω–æ —ç—Ç–æ –º–æ–∂–µ—Ç –±—ã—Ç—å –æ—á–µ–Ω—å —Å–ª–æ–∂–Ω–æ. –ü—Ä–æ—â–µ —ç—Ç–æ —Å–¥–µ–ª–∞—Ç—å —Å –ø–æ–º–æ—â—å—é –æ–∫–æ–Ω–Ω–æ–π —Ñ—É–Ω–∫—Ü–∏–∏ LEAD . –≠—Ç–∞ —Ñ—É–Ω–∫—Ü–∏—è —Å—Ä–∞–≤–Ω–∏–≤–∞–µ—Ç –∑–Ω–∞—á–µ–Ω–∏—è –∏–∑ –æ–¥–Ω–æ–π —Å—Ç—Ä–æ–∫–∏ —Å–æ —Å–ª–µ–¥—É—é—â–µ–π —Å—Ç—Ä–æ–∫–æ–π, —á—Ç–æ–±—ã –ø–æ–ª—É—á–∏—Ç—å —Ä–µ–∑—É–ª—å—Ç–∞—Ç. –í —ç—Ç–æ–º —Å–ª—É—á–∞–µ —Ñ—É–Ω–∫—Ü–∏—è —Å—Ä–∞–≤–Ω–∏–≤–∞–µ—Ç –∑–Ω–∞—á–µ–Ω–∏—è –≤ —Å—Ç–æ–ª–±—Ü–µ ¬´–≤—Ä–µ–º—è¬ª –¥–ª—è —Å—Ç–∞–Ω—Ü–∏–∏ —Å–æ —Å—Ç–∞–Ω—Ü–∏–µ–π —Å—Ä–∞–∑—É –ø–æ—Å–ª–µ –Ω–µ–µ.
 
--- 1
-with cte1 as
-(
-select * from users_profile
-)
-select * from cte1;
-
--- 2
-WITH cte1 AS
-(
-	SELECT COUNT(*) AS count FROM users
-    WHERE status = 'Active'
-)
-SELECT * FROM cte1;
-
--- 3
-WITH RECURSIVE cte AS
-(
-	SELECT 1 AS a, 1 * 1 AS res
-    UNION ALL
-    SELECT a + 1, POW(a + 1, 2) as res
-    FROM cte
-    WHERE a < 10
-)
-SELECT * FROM cte;
-
-/*
-—Ó·‡Ú¸ ‰˝¯·Ó‰, ‚ ÍÓÚÓÓÏ ÒÓ‰ÂÊËÚÒˇ ËÌÙÓÏ‡ˆËˇ Ó Ï‡ÍÒËÏ‡Î¸ÌÓÈ Á‡‰ÓÎÊÂÌÌÓÒÚË ‚ Í‡Ê‰ÓÏ ·‡ÌÍÂ,
-‡ Ú‡ÍÊÂ ÒÂ‰ÌËÈ ‡ÁÏÂ ÔÓˆÂÌÚÌÓÈ ÒÚ‡‚ÍË ‚ Í‡Ê‰ÓÏ ·‡ÌÍÂ ‚ Á‡‚ËÒËÏÓÒÚË ÓÚ ÒÂ„ÏÂÌÚ‡ Ë ÍÓÎË˜ÂÒÚ‚Ó
-‰Ó„Ó‚ÓÓ‚ ‚ÒÂ„Ó ‚ÒÂÏ ·‡ÌÍ‡Ï
-*/
-
-select *,
-max(OSZ) over(partition by TB) 'Ï‡ÍÒËÏ‡Î¸ÌÓÈ Á‡‰ÓÎÊÂÌÌÓÒÚË ‚ Í‡Ê‰ÓÏ ·‡ÌÍÂ',
-avg(procent_rate) over(partition by TB, SIGMENT) 'ÒÂ‰ÌËÈ ‡ÁÏÂ ÔÓˆÂÌÚÌÓÈ ÒÚ‡‚ÍË ‚ Í‡Ê‰ÓÏ ·‡ÌÍÂ ‚ Á‡‚ËÒËÏÓÒÚË ÓÚ ÒÂ„ÏÂÌÚ‡',
-count(ID_DOG) over() 'ÍÓÎË˜ÂÒÚ‚Ó ‰Ó„Ó‚ÓÓ‚' 
-from table1;
-
-
--- œÓ‡ÌÊËÛÂÏ Ú‡·ÎËˆÛ ÔÓ Û·˚‚‡ÌË˛ ÍÓÎË˜ÂÒÚ‚‡ Â‚ËÁËÈ
-SELECT *,
-ROW_NUMBER() OVER(ORDER BY count_revisions DESC), 
-RANK() OVER(ORDER BY count_revisions DESC),
-DENSE_RANK() OVER(ORDER BY count_revisions DESC),
-NTILE(3) OVER(ORDER BY count_revisions DESC)
-FROM table1;
-
-
--- Õ‡ÈÚË ‚ÚÓÓÈ ÓÚ‰ÂÎ ‚Ó ‚ÒÂı ·‡ÌÍ‡ı ÔÓ ÍÓÎË˜ÂÒÚ‚Û Â‚ËÁËÈ.
-
-WITH cte AS
-(
-	SELECT *, 
-    DENSE_RANK() OVER(ORDER BY count_revisions DESC) AS ds
-    FROM table1
-)
-SELECT * FROM cte
-WHERE ds = 2;
-
-
-
-SELECT *,
-LEAD(Event, 1, 'end') OVER(PARTITION BY id_task ORDER BY date_event), 
-LEAD(date_event, 1, '2099-01-01') OVER(PARTITION BY id_task ORDER BY date_event)
-FROM table1;
+SELECT train_id, station, station_time
+SUBTIME(LEAD(station_time) OVER(PARTITION BY train_id ORDER BY train_id), station_time)
+AS time_to_next_station
+FROM Trains;
