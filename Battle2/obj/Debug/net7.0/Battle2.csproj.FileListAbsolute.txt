@@ -1,0 +1,15 @@
+C:\Users\NIKnak\Source\Repos\CS\Battle2\obj\Debug\net7.0\Battle2.csproj.AssemblyReference.cache
+C:\Users\NIKnak\Source\Repos\CS\Battle2\obj\Debug\net7.0\Battle2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\NIKnak\Source\Repos\CS\Battle2\obj\Debug\net7.0\Battle2.AssemblyInfoInputs.cache
+C:\Users\NIKnak\Source\Repos\CS\Battle2\obj\Debug\net7.0\Battle2.AssemblyInfo.cs
+C:\Users\NIKnak\Source\Repos\CS\Battle2\obj\Debug\net7.0\Battle2.csproj.CoreCompileInputs.cache
+C:\Users\NIKnak\Source\Repos\CS\Battle2\bin\Debug\net7.0\Battle2.exe
+C:\Users\NIKnak\Source\Repos\CS\Battle2\bin\Debug\net7.0\Battle2.deps.json
+C:\Users\NIKnak\Source\Repos\CS\Battle2\bin\Debug\net7.0\Battle2.runtimeconfig.json
+C:\Users\NIKnak\Source\Repos\CS\Battle2\bin\Debug\net7.0\Battle2.dll
+C:\Users\NIKnak\Source\Repos\CS\Battle2\bin\Debug\net7.0\Battle2.pdb
+C:\Users\NIKnak\Source\Repos\CS\Battle2\obj\Debug\net7.0\Battle2.dll
+C:\Users\NIKnak\Source\Repos\CS\Battle2\obj\Debug\net7.0\refint\Battle2.dll
+C:\Users\NIKnak\Source\Repos\CS\Battle2\obj\Debug\net7.0\Battle2.pdb
+C:\Users\NIKnak\Source\Repos\CS\Battle2\obj\Debug\net7.0\Battle2.genruntimeconfig.cache
+C:\Users\NIKnak\Source\Repos\CS\Battle2\obj\Debug\net7.0\ref\Battle2.dll
