@@ -1,5 +1,0 @@
-C:\Users\unvetos\Desktop\CS\BotFile\obj\Debug\net6.0\BotFile.csproj.AssemblyReference.cache
-C:\Users\unvetos\Desktop\CS\BotFile\obj\Debug\net6.0\BotFile.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\unvetos\Desktop\CS\BotFile\obj\Debug\net6.0\BotFile.AssemblyInfoInputs.cache
-C:\Users\unvetos\Desktop\CS\BotFile\obj\Debug\net6.0\BotFile.AssemblyInfo.cs
-C:\Users\unvetos\Desktop\CS\BotFile\obj\Debug\net6.0\BotFile.csproj.CoreCompileInputs.cache

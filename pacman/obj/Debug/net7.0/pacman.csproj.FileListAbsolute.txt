@@ -1,0 +1,15 @@
+C:\Users\NIKnak\source\repos\CS\pacman\bin\Debug\net7.0\pacman.exe
+C:\Users\NIKnak\source\repos\CS\pacman\bin\Debug\net7.0\pacman.deps.json
+C:\Users\NIKnak\source\repos\CS\pacman\bin\Debug\net7.0\pacman.runtimeconfig.json
+C:\Users\NIKnak\source\repos\CS\pacman\bin\Debug\net7.0\pacman.dll
+C:\Users\NIKnak\source\repos\CS\pacman\bin\Debug\net7.0\pacman.pdb
+C:\Users\NIKnak\source\repos\CS\pacman\obj\Debug\net7.0\pacman.csproj.AssemblyReference.cache
+C:\Users\NIKnak\source\repos\CS\pacman\obj\Debug\net7.0\pacman.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\NIKnak\source\repos\CS\pacman\obj\Debug\net7.0\pacman.AssemblyInfoInputs.cache
+C:\Users\NIKnak\source\repos\CS\pacman\obj\Debug\net7.0\pacman.AssemblyInfo.cs
+C:\Users\NIKnak\source\repos\CS\pacman\obj\Debug\net7.0\pacman.csproj.CoreCompileInputs.cache
+C:\Users\NIKnak\source\repos\CS\pacman\obj\Debug\net7.0\pacman.dll
+C:\Users\NIKnak\source\repos\CS\pacman\obj\Debug\net7.0\refint\pacman.dll
+C:\Users\NIKnak\source\repos\CS\pacman\obj\Debug\net7.0\pacman.pdb
+C:\Users\NIKnak\source\repos\CS\pacman\obj\Debug\net7.0\pacman.genruntimeconfig.cache
+C:\Users\NIKnak\source\repos\CS\pacman\obj\Debug\net7.0\ref\pacman.dll
