@@ -1,25 +1,27 @@
 ﻿
 
-List<int> numbers = new List<int>();
-numbers.Add(12);
-numbers.Add(5);
-numbers.Add(8);
-// numbers.Add(14);
-// numbers.Add(22);
 
 
-// numbers.AddRange(new int[] {3,4,5,6});
+// пузырьком 
 
 
-// numbers.Clear();
-numbers.Insert(0,000);
-numbers.Insert(1,111);
-numbers.Insert(2,222);
+int[] arr = { 800, 11, 50, 771, 649, 770, 240, 9 };
 
-for (int i = 0; i < numbers.Count; i++)
+int temp = 0;
+
+for (int write = 0; write < arr.Length; write++)
 {
-
-    System.Console.WriteLine(numbers[i]);
-
-
+    for (int sort = 0; sort < arr.Length - 1; sort++)
+    {
+        if (arr[sort] > arr[sort + 1])
+        {
+            temp = arr[sort + 1];
+            arr[sort + 1] = arr[sort];
+            arr[sort] = temp;
+        }
+    }
 }
+
+for (int i = 0; i < arr.Length; i++)
+    Console.Write(arr[i] + " ");
+Console.ReadKey();
