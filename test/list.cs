@@ -23,3 +23,6 @@ for (int write = 0; write < arr.Length; write++)
 for (int i = 0; i < arr.Length; i++)
     Console.Write(arr[i] + " ");
 Console.ReadKey();
+
+
+
